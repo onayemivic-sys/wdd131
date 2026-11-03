@@ -1,0 +1,56 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 1rem;
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+  color: #222;
+}
+
+main {
+  max-width: 600px;
+  margin: 2rem auto;
+  padding: 1.5rem;
+  background-color: white;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+h1 {
+  color: #315b72;
+  text-align: center;
+}
+
+.entry-form {
+  display: flex;
+  gap: 0.5rem;
+  margin: 1rem 0;
+}
+
+input {
+  flex: 1;
+  min-width: 0;
+  padding: 0.7rem;
+  font: inherit;
+}
+
+button {
+  padding: 0.7rem 1rem;
+  font: inherit;
+  cursor: pointer;
+}
+
+ul {
+  padding-left: 1.5rem;
+}
+
+li {
+  margin: 0.75rem 0;
+}
+
+li button {
+  margin-left: 0.75rem;
+}
