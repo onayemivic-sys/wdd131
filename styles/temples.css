@@ -27,7 +27,7 @@ header {
     flex-wrap: wrap;
 }
 
-header h1 {
+header p {
     font-family: 'Roboto Slab', serif;
     font-size: 1.5rem;
 }
@@ -93,7 +93,7 @@ h1 {
 
 figure {
     text-align: center;
-    background-color: #998552;
+    background-color: #b49f6c;
     padding: 0.8rem;
     border-radius: 5px;
 }
@@ -107,7 +107,7 @@ figure img {
 figcaption {
     padding: 0.7rem;
     font-size: 0.9rem;
-    color: #333;
+    color: #000;
 }
 
 /* FOOTER */
