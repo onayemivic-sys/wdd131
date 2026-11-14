@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description" content="Discover Nigeria, its capital city, population, languages, culture, and weather.">
+    <meta name="author" content="Onayemi Aduragbemi Victor">
+
+    <title>Nigeria | Country Information</title>
+
+    <link rel="stylesheet" href="styles/place.css">
+    <script src="scripts/places.js" defer></script>
+</head>
+
+<body>
+
+    <header>
+        <h1>Nigeria</h1>
+    </header>
+
+    <main>
+
+        <div class="hero">
+
+            <picture>
+                <source
+                    media="(max-width: 600px)"
+                    srcset="images/nigeria-small.jpeg">
+
+                <img
+                    src="images/nigeria-large.jpg"
+                    alt="A beautiful view of Nigeria"
+                    class="hero-image">
+            </picture>
+
+            <section class="country-info">
+                <h2>About Nigeria</h2>
+
+                <p><strong>Official Name:</strong> Federal Republic of Nigeria</p>
+
+                <p><strong>Capital:</strong> Abuja</p>
+
+                <p><strong>Continent:</strong> Africa</p>
+
+                <p><strong>Population:</strong> Approximately 230 million</p>
+
+                <p><strong>Currency:</strong> Nigerian Naira (₦)</p>
+
+                <p><strong>Official Language:</strong> English</p>
+
+                <p><strong>Independence:</strong> October 1, 1960</p>
+            </section>
+
+            <section class="weather">
+                <h2 class="weather-heading">Weather</h2>
+
+                <div class="weather-icon">
+                    <img src="images/weather.svg" alt="Partly cloudy weather">
+                </div>
+
+                <div class="weather-details">
+                    <p><strong>Condition:</strong> Partly Cloudy</p>
+
+                    <p>
+                        <strong>Temperature:</strong>
+                        <span id="temperature">8</span> °C
+                    </p>
+
+                    <p>
+                        <strong>Wind Speed:</strong>
+                        <span id="wind-speed">12</span> km/h
+                    </p>
+
+                    <p>
+                        <strong>Wind Chill:</strong>
+                        <span id="wind-chill">Calculating...</span>
+                    </p>
+                </div>
+            </section>
+
+        </div>
+
+    </main>
+
+    <footer>
+        <p>
+            &copy; <span id="current-year"></span>
+             Onayemi Aduragbemi Victor | Nigeria
+        </p>
+
+        <p>
+            Last Modified:
+            <span id="last-modified"></span>
+        </p>
+    </footer>
+
+</body>
+</html>
