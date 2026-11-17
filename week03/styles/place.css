@@ -21,7 +21,7 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
     color: var(--text-color);
-    background-color: var(--background-color);
+    background-color: beige;
     line-height: 1.6;
 }
 
