@@ -1,0 +1,45 @@
+/*General page styling*/
+body {
+    font-family:Arial, sans-serif;
+    margin: 0;
+    background-color: beige;
+    padding:20px;
+} 
+/*Main content styling*/
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/*Page heading*/
+h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 30px;
+    background-color: grey;
+}
+/*image styling*/
+img{
+    display: block;
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    margin:20px auto;
+    background-color: black;
+    animation: fadeFromBlack 2s ease-in;
+}
+/*fade animation*/
+@keyframes fadeFromBlack {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+/*footer styling*/
+footer {
+    text-align: center;
+    color:white;
+    margin-top: 30px;
+    padding: 20px;
+    background-color: blue;
+}
