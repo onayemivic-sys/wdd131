@@ -1,0 +1,51 @@
+/* LARGE SCREEN STYLING */
+
+@media screen and (min-width: 640px) {
+
+    /* HEADER */
+
+    #menu-button {
+        display: none;
+    }
+
+    .header-container {
+        flex-wrap: nowrap;
+    }
+
+    nav {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        width: auto;
+    }
+
+    nav a {
+        padding: 0.8rem 1rem;
+    }
+
+    /* TEMPLE GRID */
+
+    .temple-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 2rem;
+    }
+
+    .temple-card {
+        padding: 1.2rem;
+    }
+
+}
+
+/* DESKTOP */
+
+@media screen and (min-width: 1000px) {
+
+    main {
+        padding: 2rem;
+    }
+
+    .temple-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+}

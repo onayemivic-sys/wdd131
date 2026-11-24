@@ -1,0 +1,114 @@
+/*General Styles*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+}
+/*HEADER*/
+header{
+    background-color: #174a5b;
+    color: white;
+    padding: 1rem;
+}
+
+header-container{
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.header-container p{
+    font-family: 'Roboto Slab',serif;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+/*hamburger button*/
+#menu-button{
+    background: none;
+    border: none;
+    color: white;
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+/*nav section*/
+nav{
+    display: none;
+    width: 100%;
+    flex-direction: column;
+    text-align: center;
+
+}
+nav.open{
+    display: flex;
+}
+nav a{
+    color: white;
+    text-decoration: none;
+    padding: 0.8rem ;
+    font-weight: bold;
+}
+nav a:hover {
+    background-color: #e0f2f1;
+    color: #174a5b;
+}
+
+/*main section*/
+main{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 1rem;
+}
+h1{
+    font-family:  'Roboto Slab',serif;
+    text-align: center;
+    margin: 1.5em 0;
+    color: #174a5b;
+}
+/*Temple grid*/
+.temple-grid{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+}
+/*temple cards*/
+.temple-card{
+    background-color: white;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    padding: 1rem;
+}
+.temple-card h2{
+    font-family: 'Roboto Slab',serif;
+    color: #174a5b;
+    margin-bottom: 0.8rem;
+}
+.temple-card p{
+    margin: 0.5rem 0;
+    line-height: 1.5;
+}
+.temple-card img{
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-top: 1rem;
+}
+
+/*footer*/
+footer{
+    background-color: #174a5b;
+    color: white;
+    text-align: center;
+    padding: 1.5rem;
+    margin-top: 2rem;
+    line-height: 1.8;
+}
