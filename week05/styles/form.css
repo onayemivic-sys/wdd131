@@ -1,0 +1,200 @@
+/* General page styling */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    background-color: #f1f5f9;
+    color: #222;
+    line-height: 1.6;
+}
+
+/* Header */
+header {
+    background-color: #123b5d;
+    color: white;
+    text-align: center;
+    padding: 25px 15px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2rem;
+}
+
+header p {
+    margin-bottom: 0;
+}
+
+/* Main form container */
+main {
+    max-width: 600px;
+    margin: 30px auto;
+    padding: 25px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 3px 12px rgba(0, 0, 0, 0.12);
+}
+
+/* Form fields */
+.form-group {
+    margin-bottom: 22px;
+}
+
+label,
+legend {
+    font-weight: bold;
+}
+
+.form-group > label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+select,
+input[type="date"],
+input[type="text"],
+textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #777;
+    border-radius: 5px;
+    font-size: 1rem;
+    background-color: white;
+}
+
+fieldset {
+    border: 1px solid #aaa;
+    border-radius: 6px;
+    padding: 15px;
+}
+
+/* Rating section */
+.rating-options {
+    display: flex;
+    justify-content: space-between;
+    gap: 8px;
+    margin-top: 12px;
+}
+
+.rating-options div {
+    text-align: center;
+}
+
+.rating-options input {
+    display: block;
+    margin: 0 auto 5px;
+}
+
+.rating-options label {
+    color: #b77900;
+    font-size: 1.15rem;
+    cursor: pointer;
+}
+
+/* Useful features */
+.feature-options {
+    display: grid;
+    gap: 12px;
+    margin-top: 12px;
+}
+
+.feature-options label {
+    font-weight: normal;
+}
+
+.feature-options input {
+    margin-right: 8px;
+}
+
+/* Submit button */
+input[type="submit"] {
+    width: 100%;
+    padding: 14px;
+    background-color: #123b5d;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #205d88;
+}
+
+/* Keyboard accessibility */
+input:focus,
+select:focus,
+textarea:focus {
+    outline: 3px solid #e0a126;
+    outline-offset: 2px;
+}
+
+/* Footer */
+footer {
+    background-color: #123b5d;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
+}
+
+/* Mobile responsiveness */
+@media screen and (max-width: 480px) {
+    main {
+        margin: 15px;
+        padding: 18px;
+    }
+
+    header h1 {
+        font-size: 1.6rem;
+    }
+
+    .rating-options {
+        flex-wrap: wrap;
+    }
+}
+/* Confirmation page */
+.confirmation {
+    text-align: center;
+}
+
+.confirmation h2 {
+    color: #123b5d;
+}
+
+.review-summary {
+    background-color: #f1f5f9;
+    border-left: 4px solid #123b5d;
+    padding: 15px;
+    margin: 25px 0;
+    text-align: left;
+}
+
+.review-summary h3 {
+    text-align: center;
+}
+
+.counter {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #123b5d;
+}
+
+.back-link {
+    display: inline-block;
+    background-color: #123b5d;
+    color: white;
+    padding: 12px 20px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.back-link:hover {
+    background-color: #205d88;
+}
