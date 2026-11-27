@@ -67,3 +67,6 @@ if (isValidSubmission) {
 const totalReviews = Number(localStorage.getItem("reviewCount")) || 0;
 
 document.querySelector("#reviewCount").textContent = totalReviews;
+
+//display last mod date
+document.querySelector("#lastModified").textContent = document.lastModified;
